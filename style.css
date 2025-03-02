@@ -1,0 +1,622 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: whitesmoke;
+  font-family: "Outfit", serif;
+}
+header nav {
+  width: 75%;
+  height: 60px;
+  border-radius: 60px;
+  text-align: center;
+  z-index: 10;
+  margin: 0px auto;
+  padding: 0px 20px;
+  background: #261E1E;
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+  gap:0px 20px;
+  justify-content: center;
+  text-align: center;
+}
+header nav ul li{
+  margin-top: 16px;
+  position: relative;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.title{
+  margin-right: auto;
+  font-size: 20px;
+  margin-top: 14px;
+  margin-left: -10px;
+  font-family: "Outfit", serif;
+}
+.github{
+  margin-left: auto;
+  padding: 13px;
+  margin-top: 5.5px;
+  border-radius: 40px;
+  background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+}
+.title span{
+  color: green;
+}
+  nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 5px;
+    transition: width 0.3s ease-in-out;
+    background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
+  header nav_mob{
+    display: none;
+  }
+  nav_mobile_first{
+    display: none;
+  }
+  rahimul_Section img{
+    width: 270px;
+    float: left;
+    border-radius: 50%;
+    margin: 60px 0px 0px 85px;
+  }
+  rahimul_Section{
+    display: flex;
+  }
+  rahimul_Section .iam{
+    margin-left: -18px;
+  }
+  rahimul_Section p{
+    margin: 90px 0px 0px 240px;
+  }
+ .rahimulislam{
+   font-size: 45px;
+   font-weight: bold;
+   margin-left: -100px;
+}
+ #animated-text{
+   font-size: 27px;
+   margin-left: -50px;
+background: linear-gradient(90deg, #6a11cb, #2575fc);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ rahimul_Section button{
+   color:black;
+   background: whitesmoke;
+   padding: 10px 20px;
+   border: 1px black solid;
+   border-radius: 40px;
+   margin-top: 15px;
+ }
+.button1{
+  margin-left: -80px;
+}
+rahimul_Section button:hover{
+  background: black;
+  color: white;
+  transition: 0.7s;
+}
+.button1 a{
+text-decoration: none;
+color: black;
+}
+.button1 a:hover{
+  color: white;
+}
+rahimul_Section a i{
+  color:black;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 4.5px;
+}
+my_experience h1{
+  text-align: center;
+  margin-bottom: 45px;
+}
+exper .text {
+  width: 250px;
+  height: 190px;
+  background: white;
+  border-radius: 20px;
+  border: 2px #261E1E solid;
+}
+exper{
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+exper img{
+  width: 230px;
+  margin-top: -115px;
+  border-radius: 30px;
+  margin-left: 70px;
+}  
+exper .text h3{
+  margin-left: 13px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+exper .text .sama{
+  margin-top: -5px;
+  margin-left: 13px;
+}
+exper .text:hover{
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+project_section h1{
+  text-align: center;
+  margin: 0px auto;
+}
+project .project1{
+  width: 230px;
+  height: 350px;
+  background: white;
+  border:1px black solid;
+  border-radius: 20px;
+}
+project{
+  display: flex;
+  gap:10px;
+ /* margin-left: 130px;*/
+ justify-content: center;
+}
+.proimg{
+  width: 210px;
+  margin-top: 20px;
+  margin-left:9px;
+  border: 1px black solid;
+  border-radius: 10px;
+  outline: none;
+}
+h2{
+  text-align: center;
+}
+.prop{
+  text-align: center;
+}
+.btn1{
+  background: white;
+  color:black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px black solid;
+  outline: none;
+  margin-left: 10px;
+}
+.btn1:hover{
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+project .project1:hover{
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+contact_info h1{
+  text-align: center;
+}
+ .fieldset {
+  --main-color: #4a4d96;
+  border: 2px var(--main-color) solid;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0px auto;
+}
+legend {
+  color: var(--main-color);
+}
+.fieldset input[type="email"] {
+  /* reset the field */
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0 10px 10px 10px;
+  font-size: 0.75rem;
+  width: 85%;
+}
+textarea{
+  width: 60%;
+ /* margin-left: 184px;*/
+  border: 2px #4a4d96 solid;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+textarea:hover{
+  outline: #4a4d96;
+}
+
+/* From Uiverse.io by kleenpulse */ 
+.btn {
+  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+  --border-width: 0.125em;
+  --curve-size: 0.5em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+  color: var(--color);
+  cursor: pointer;
+  /* use position: relative; so that BG is only for .btn */
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  place-content: center;
+  padding: 0.5em 1.5em;
+  font-size: 17px;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  clip-path: polygon(
+    /* Top-left */ 0% var(--curve-size),
+    var(--curve-size) 0,
+    /* top-right */ 100% 0,
+    100% calc(100% - var(--curve-size)),
+    /* bottom-right 1 */ calc(100% - var(--curve-size)) 100%,
+    /* bottom-right 2 */ 0 100%
+  );
+  transition: color 250ms;
+}
+
+.btn::after,
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.btn::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+
+  50% {
+    background-position: 70% 100%;
+  }
+
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+.btn::after {
+  background: var(--bg);
+  z-index: -1;
+  clip-path: polygon(
+    /* Top-left */ var(--border-width)
+      calc(var(--curve-size) + var(--border-width) * 0.5),
+    calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
+    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
+    calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    /* bottom-right 1 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+    /* bottom-right 2 */ var(--border-width) calc(100% - var(--border-width))
+  );
+  transition: clip-path 500ms;
+}
+
+.btn:where(:hover, :focus)::after {
+  clip-path: polygon(
+    /* Top-left */ calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    calc(100% - var(--border-width)) var(--border-width),
+    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
+    calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    /* bottom-right 1 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+    /* bottom-right 2 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width))
+  );
+  transition: 200ms;
+}
+
+.btn:where(:hover, :focus) {
+  color: #fff;
+}
+  
+  contact_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+   .cursor{
+   background: linear-gradient(90deg, #6a11cb, #2575fc);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+#message{
+  text-align: center;
+}
+ .snake{
+   border: 1px red solid;
+   animation: sna 0.2s linear 10;
+ }
+ @keyframes sna{
+   0%{
+  translate: -5px; 
+   }
+   25% {
+  translate: 0px;
+  }
+  50% {
+  translate: 5px;
+  }
+  75% {
+  translate: 0px;
+  }
+  100% {
+  translate: -5px;
+  }
+ }
+.i a{
+  color: black;
+  font-size: 13px;
+  font-size: 20px;
+}
+  
+  
+  /*Mobile Responsible */
+  
+    @media (max-width: 768px) {
+    header nav{
+      display: none;
+    }
+    header nav_mob{
+      display: none;
+    }
+   nav_mobile_first{
+     display: block;
+   }
+   .title{
+     display: none;
+   }
+  .github{
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+  }
+  header nav_mob {
+  width: 90%;
+  z-index: 10;
+  margin: 0px auto;
+  border-radius: 30px;
+  background: #261E1E;
+  padding-bottom: 10px;
+}
+header nav_mob ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  gap: 15px;
+  }
+  header nav_mob ul li a{ 
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px 0px;
+    padding-right: 50%;
+    margin-bottom: 3px;
+    }
+  header nav_mob ul li { 
+    position: relative;
+  }
+
+  nav_mob a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 4px;
+  transition: width 0.3s ease-in-out;
+  background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+}
+
+nav_mob a:hover::after {
+  width: 50%;
+}
+.x_button{
+  width: 50px;
+  margin-left: auto;
+  padding: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background:#261E1E ;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+ .x_button:hover{
+  scale: 1.5;
+  transition: 0.5s
+}
+nav_mobile_first ul {
+  width: 80%;
+  height: 50px;
+  background: #261E1E;
+  margin: 0px auto;
+  margin-top: 10px;
+  position: block;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  border-radius: 50px;
+  z-index: 5;
+}
+nav_mobile_first li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav_mobile_first li{
+  list-style: none;
+  margin-top: 15px;
+}
+rahimul_Section img {
+  width: 230px;
+  float: left;
+  border-radius: 50%;
+  margin: 50px 0px 0px 65px;
+}
+
+
+rahimul_Section{
+    display: flex;
+    flex-direction: column;
+  }
+  rahimul_Section p{
+    margin: 23px 0px 0px 138px;
+  }
+ .rahimulislam{
+   font-size: 40px;
+   font-weight: bold;
+   margin-left: -85px;
+}
+ #animated-text{
+   font-size: 27px;
+   margin-left: -60px;
+   font-weight: bold;
+background: linear-gradient(90deg, #6a11cb, #2575fc);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ rahimul_Section button{
+   color:black;
+   background: whitesmoke;
+   padding: 10px 20px;
+   border: 1px black solid;
+   border-radius: 40px;
+   margin-top: 15px;
+ }
+.button1{
+  margin-left: -85px;
+}
+rahimul_Section .iam{
+  margin-left: -22px;
+}
+exper .text {
+  width: 100%;
+  height: 190px;
+  background: white;
+  border-radius: 20px;
+  border: 2px #261E1E solid;
+  margin-left: -27px;
+}
+exper{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+exper img {
+  width: 180px;
+  margin-top: 0px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+exper .text:hover{
+  scale: 1.1;
+}
+project {
+  display: flex;
+  gap: 10px;
+ flex-direction: column;  
+ margin-left: 66px;
+}
+project .project1:hover{
+ animation: rotate 1s ;
+ scale: 1.1;
+ z-index: 999;
+}
+ @keyframes rotate{
+   0%{
+     rotate: 0deg;
+   }
+   25%{
+     rotate: 5deg;
+   }
+   50%{
+     rotate: 0deg;
+   }
+   75%{
+     rotate: -5deg;
+   }
+   100%{
+     rotate: 0deg;
+   }
+ }
+ .fieldset {
+  --main-color: #4a4d96;
+  border: 2px var(--main-color) solid;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  width: 85%;
+  margin: 0px auto;
+}
+legend {
+  color: var(--main-color);
+}
+.fieldset input[type="text"] {
+  /* reset the field */
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0 10px 10px 10px;
+  font-size: 0.75rem;
+  width: 85%;
+}
+textarea{
+  width: 85%;
+  border: 2px #4a4d96 solid;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+textarea:hover{
+  outline: #4a4d96;
+}
+.btn{
+  margin-left: -232px;
+}
+  }
+  
